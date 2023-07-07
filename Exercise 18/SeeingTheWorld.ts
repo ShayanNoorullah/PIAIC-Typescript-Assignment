@@ -1,0 +1,14 @@
+let desiredLocations = ["Switzerland", "London", "Singapoure", "Paris", "NewYork" ];
+console.log("Original form: " + desiredLocations);
+console.log("Alphabetically Ordered: " + [...desiredLocations].sort());
+console.log("Original form: " + desiredLocations);
+console.log("Alphabetically Ordered and Reversed: " + [...desiredLocations].sort().reverse());
+console.log("Original form: " + desiredLocations);
+desiredLocations.reverse();
+console.log("Reversed List: " + desiredLocations);
+desiredLocations.reverse();
+console.log("Reversed to original List: " + desiredLocations);
+desiredLocations.sort();
+console.log("Alphabetically Ordered: " + desiredLocations);
+desiredLocations.sort().reverse();
+console.log("Alphabetically Ordered and Reversed: " + desiredLocations);
